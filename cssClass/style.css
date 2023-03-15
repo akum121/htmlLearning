@@ -1,0 +1,31 @@
+.body{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.gray{
+    color:gray;
+    font-size: 15px;
+}
+
+.bold{
+     font-weight: bold;
+     
+}
+.center{
+    text-align: center;
+    font-size: 30px;
+}
+
+.hr{
+    
+       border: 2px solid rgb(250, 205, 99);
+}
+
+p{
+    font-size: 200px;
+}
+
+div.h{
+    font-family: Arial, Helvetica, sans-serif;
+  }

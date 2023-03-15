@@ -1,0 +1,28 @@
+.blue{
+    background-color: blue;
+}
+button:hover{
+    background-color: rgb(91, 222, 240);
+}
+
+.green{
+    background-color: green;
+}
+
+.center{
+        text-align: center;
+}
+
+#pading{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#big-size{
+    font-size: xx-large;
+}
+
+#uppercase{
+    text-transform: uppercase;
+
+}

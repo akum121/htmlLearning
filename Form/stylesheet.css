@@ -1,0 +1,14 @@
+.div{
+    text-align: left;
+    width: 1000px;
+    height: 800px;
+    border-style: solid;
+    border-color: black;
+    background-color: aquamarine;
+}
+.t1{ align-self: center;
+    border: 1px solid black;
+}
+.textarea{
+    
+}
