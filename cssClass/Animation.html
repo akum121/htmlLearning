@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            display: flex;
+            
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation: mymove 5s infinite;
+       }
+       @keyframes mymove{
+        0% {top:0px; background-color: red;}
+        100% {top: 200px;background-color: yellow; }
+       } 
+       .div2{
+        width: 100px; height: 100px; margin-left: 150px;
+        background-color: brown; position: relative;
+        animation: move infinite;
+        animation-direction: alternate;
+        animation-duration: 6s;
+       }
+       @keyframes move{
+        0%{ background-color: brown; left: 0px;top: 0px; }
+        25%{ background-color: tomato; left: 200px; top : 0px;}
+        50%{ background-color: blue; left: 200px; top : 200px;}
+        75%{ background-color:green; left: 0px; top: 200px;}
+        100%{ background-color: aqua; left: 0px; top:0px;}
+       }
+       @keyframes spin {
+            from {
+            transform: rotate(0turn);
+            }
+            to {
+            transform: rotate(1turn);
+            }
+        }
+  
+  .spinner {
+    margin-left: 400px;
+    animation: spin 1000ms infinite;
+    animation-timing-function: linear;
+  }
+
+    </style>
+</head>
+<body>
+    
+    <h1> The @ Keyframes Rule</h1>
+    <div>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <img class="spinner" alt="Loading…" src="https://www.nicepng.com/png/full/13-132412_loading-circle.png" width="200px" height="200px">
+    </div>
+    
+</body>
+</html>
